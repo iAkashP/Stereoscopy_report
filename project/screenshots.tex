@@ -1,0 +1,64 @@
+\chapter{Algorithm \& Code}
+\section{Importing modules}
+\begin{lstlisting}
+from scipy.spatial import distance as dist
+import numpy as np
+import cv2
+\end{lstlisting}
+This are the distributions to be used.
+
+\section{Capture and Work on image}
+\begin{lstlisting}
+cap0=cv2.VideoCapture(0)
+while(1):
+	ret,img1=cap0.read()
+	image_blur = cv2.GaussianBlur(img1, (7, 7), 0)
+	image_blur_hsv1 = cv2.cvtColor(image_blur, cv2.COLOR_BGR2RGB)
+\end{lstlisting}
+In this section, OpenCV is capturing live feed from HDcam, and the individuals frames are extracted, Gaussian Blur filter is applied and the image format is changed from BGR to HSV.
+
+\section{Colour grading}
+\begin{lstlisting}
+max_orange = np.array([245,136,99])
+min_orange = np.array([150,45,10])
+max_white= np.array([225,224,228])
+min_white=np.array([119,115,136])
+mask1 = cv2.inRange(image_blur_hsv1,min_orange,max_orange)
+mask2 = cv2.inRange(image_blur_hsv1,min_white,max_white)
+mask=mask1+mask2
+\end{lstlisting}
+In this section, OpenCV is thresholding orange an white color, with some predefined values of R,G,B combination. The mask is created and applied on the blurred image.
+
+\section{Canny edge and Contour}
+\begin{lstlisting}
+edged1 = cv2.Canny(mask, 50, 100)
+edged1 = cv2.dilate(edged1, None, iterations=1)
+edged1 = cv2.erode(edged1, None, iterations=1)
+
+ _,contours1,_ = cv2.findContours(edged1, cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+\end{lstlisting}
+Here, Canny edge detection done and image dilated and eroded for finding features and then contours are scratched out by edges.
+
+\section{Finding co-ordinates}
+\begin{lstlisting}
+M1=cv2.moments(contours1)
+if M1["m00"] != 0:
+	cX1=int(M1['m10']/M1["m00"])
+	cY1=int(M1["m01"]/M1["m00"])
+	cv2.drawContours(img1,c1, -1, (0, 255, 0), 2)
+	cv2.circle(img1, (cX1, cY1), 7, (255, 255, 255), -1)
+	cv2.putText(img1, "center", (cX1 - 20, cY1 - 20),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
+else:
+	cX1,cY1=0,0
+	c2 = max(contours2, key = cv2.contourArea)
+\end{lstlisting}
+Here the co-ordinate of the detected image is obtained, and the distance of object from the center of frame is determined.
+
+\section{Finding co-ordinates}
+\begin{lstlisting}
+ D=cX1+cX2
+\end{lstlisting}
+Finally the depth is calculated as sum of $C_{x1}$ and $C_{x2}$ which are the distance returning $x_{L}-x_{D}$.
+
+
+

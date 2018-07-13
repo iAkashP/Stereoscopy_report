@@ -1,0 +1,27 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{History}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Features of an image}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Image and Video}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Pixels}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{Grayscale and binary}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.4}{Object detection}{chapter.3}% 7
+\BOOKMARK [0][-]{chapter.4}{Working}{}% 8
+\BOOKMARK [0][-]{chapter.5}{Ways to View Stereoscopic Images}{}% 9
+\BOOKMARK [1][-]{section.5.1}{Stereo Pairs}{chapter.5}% 10
+\BOOKMARK [1][-]{section.5.2}{LCD Shutter Glass Method}{chapter.5}% 11
+\BOOKMARK [1][-]{section.5.3}{Color Filter Glasses}{chapter.5}% 12
+\BOOKMARK [1][-]{section.5.4}{Polarizing Glasses}{chapter.5}% 13
+\BOOKMARK [0][-]{chapter.6}{Implementation}{}% 14
+\BOOKMARK [0][-]{chapter.7}{Object Recognition}{}% 15
+\BOOKMARK [0][-]{chapter.8}{Tools and Libraries}{}% 16
+\BOOKMARK [0][-]{chapter.9}{Algorithm \046 Code}{}% 17
+\BOOKMARK [1][-]{section.9.1}{Importing modules}{chapter.9}% 18
+\BOOKMARK [1][-]{section.9.2}{Capture and Work on image}{chapter.9}% 19
+\BOOKMARK [1][-]{section.9.3}{Colour grading}{chapter.9}% 20
+\BOOKMARK [1][-]{section.9.4}{Canny edge and Contour}{chapter.9}% 21
+\BOOKMARK [1][-]{section.9.5}{Finding co-ordinates}{chapter.9}% 22
+\BOOKMARK [1][-]{section.9.6}{Finding co-ordinates}{chapter.9}% 23
+\BOOKMARK [0][-]{chapter.10}{Conclusion and Future Scope}{}% 24
+\BOOKMARK [1][-]{section.10.1}{Conclusion}{chapter.10}% 25
+\BOOKMARK [1][-]{section.10.2}{Future Scope}{chapter.10}% 26
+\BOOKMARK [0][-]{section*.55}{References}{}% 27

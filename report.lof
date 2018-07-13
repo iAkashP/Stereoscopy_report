@@ -1,0 +1,29 @@
+\thispagestyle {empty}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textsc {Stereoscopic Image}\relax }}{2}{figure.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textsc {Stereo Cameras}\relax }}{5}{figure.caption.27}
+\contentsline {subfigure}{\numberline {4.1a}{\ignorespaces \textsc {Verascope 40}\relax }}{5}{figure.caption.27}
+\contentsline {subfigure}{\numberline {4.1b}{\ignorespaces \textsc {FedStereo}\relax }}{5}{figure.caption.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textsc {Stereo Glass module}\relax }}{7}{figure.caption.33}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textsc {Image with 3D perception}\relax }}{7}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \textsc {Stereo Camera Setup}\relax }}{8}{figure.caption.37}
+\contentsline {subfigure}{\numberline {6.1a}{\ignorespaces \textsc {Horizantal Setup}\relax }}{8}{figure.caption.37}
+\contentsline {subfigure}{\numberline {6.1b}{\ignorespaces \textsc {Vertical Setup}\relax }}{8}{figure.caption.37}
+\contentsline {subfigure}{\numberline {6.1c}{\ignorespaces \textsc {Angle Setup}\relax }}{8}{figure.caption.37}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \textsc {Object captured by Stereo Setup}\relax }}{9}{figure.caption.40}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \textsc {Individual camera working}\relax }}{10}{figure.caption.41}
+\contentsline {subfigure}{\numberline {6.3a}{\ignorespaces \textsc {Object through Left Camera}\relax }}{10}{figure.caption.41}
+\contentsline {subfigure}{\numberline {6.3b}{\ignorespaces \textsc {Object through Right Camera}\relax }}{10}{figure.caption.41}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \textsc {Distance Error caused by $1$ pixel}\relax }}{11}{figure.caption.42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces \textsc {Selected object on left picture and search area on right picture.}\relax }}{12}{figure.caption.45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces \textbf {OpenCV}\relax }}{14}{figure.caption.51}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces \textbf {Numpy \& Python}\relax }}{14}{figure.caption.53}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
